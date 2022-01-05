@@ -31,8 +31,49 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2c4-MW-h2E">
+                                <rect key="frame" x="0.0" y="44" width="375" height="72"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="국어국문학과" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vLy-Wz-FNc">
+                                        <rect key="frame" x="16" y="24" width="104" height="24"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ydz-6y-TBA">
+                                        <rect key="frame" x="128" y="21" width="41" height="31"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="chevron.up.chevron.down" catalog="system"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="72" id="5cg-WP-PVi"/>
+                                    <constraint firstItem="vLy-Wz-FNc" firstAttribute="top" secondItem="2c4-MW-h2E" secondAttribute="top" constant="24" id="8Dt-tw-5WI"/>
+                                    <constraint firstAttribute="bottom" secondItem="ydz-6y-TBA" secondAttribute="bottom" constant="20" id="V4V-Sk-Qpn"/>
+                                    <constraint firstAttribute="bottom" secondItem="vLy-Wz-FNc" secondAttribute="bottom" constant="24" id="VCA-fG-Mrt"/>
+                                    <constraint firstItem="vLy-Wz-FNc" firstAttribute="leading" secondItem="2c4-MW-h2E" secondAttribute="leading" constant="16" id="oRX-4s-0OA"/>
+                                    <constraint firstItem="ydz-6y-TBA" firstAttribute="top" secondItem="2c4-MW-h2E" secondAttribute="top" constant="21" id="up3-yQ-ROd"/>
+                                    <constraint firstItem="ydz-6y-TBA" firstAttribute="leading" secondItem="vLy-Wz-FNc" secondAttribute="trailing" constant="8" id="xRU-jj-DsT"/>
+                                </constraints>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="tbG-b6-NmD">
+                                <rect key="frame" x="0.0" y="116" width="375" height="613"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="tbG-b6-NmD" secondAttribute="bottom" id="5N2-lN-mUv"/>
+                            <constraint firstItem="2c4-MW-h2E" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="70r-wh-a3C"/>
+                            <constraint firstItem="tbG-b6-NmD" firstAttribute="top" secondItem="2c4-MW-h2E" secondAttribute="bottom" id="8g4-TP-NZR"/>
+                            <constraint firstItem="2c4-MW-h2E" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="8o9-GE-EaY"/>
+                            <constraint firstItem="tbG-b6-NmD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ALg-8T-vwA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2c4-MW-h2E" secondAttribute="trailing" id="esO-wS-Aen"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="tbG-b6-NmD" secondAttribute="trailing" id="j9P-JH-m4P"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="후기" id="yC0-vE-r1G"/>
                 </viewController>
@@ -46,6 +87,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="cjI-gW-bmv" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="3TU-mA-HlJ">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
@@ -94,6 +136,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="chevron.up.chevron.down" catalog="system" width="128" height="128"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
