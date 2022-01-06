@@ -27,7 +27,7 @@
         <!--후기-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="NadoSunbae_Practice_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ReviewVC" id="BYZ-38-t0r" customClass="ReviewVC" customModule="NadoSunbae_Practice_iOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -45,6 +45,9 @@
                                         <rect key="frame" x="128" y="21" width="41" height="31"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" image="chevron.up.chevron.down" catalog="system"/>
+                                        <connections>
+                                            <action selector="onButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dAl-Bh-axT"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -80,6 +83,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="928.98550724637687" y="83.705357142857139"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="JLN-kQ-1E7">
+            <objects>
+                <viewController id="BhJ-wx-5gX" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1Po-l8-RCC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="7BB-2a-BjZ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="m4Q-N0-aEK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="879" y="768"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="pzc-CS-1qo">
