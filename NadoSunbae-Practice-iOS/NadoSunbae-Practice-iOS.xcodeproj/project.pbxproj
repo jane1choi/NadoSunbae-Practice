@@ -60,17 +60,65 @@
 		77AEEAE327859B860016880B /* NadoSunbae-Practice-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				77AEEAE427859B860016880B /* AppDelegate.swift */,
-				77AEEAE627859B860016880B /* SceneDelegate.swift */,
-				77AEEAE827859B860016880B /* ViewController.swift */,
-				77AEEAEA27859B860016880B /* Main.storyboard */,
-				77AEEAF82785AEF90016880B /* ClassName+UIViewController.swift */,
-				77AEEAFA2785AF470016880B /* UIViewController+.swift */,
+				77AEEB012786BB880016880B /* Storyboards */,
+				77AEEB002786BB7A0016880B /* Supports */,
+				77AEEAFF2786BB5A0016880B /* Extensions */,
+				77AEEAFE2786BB3E0016880B /* Models */,
+				77AEEAFD2786BB2D0016880B /* ViewModels */,
+				77AEEAFC2786BB130016880B /* Views */,
 				77AEEAED27859B880016880B /* Assets.xcassets */,
-				77AEEAEF27859B880016880B /* LaunchScreen.storyboard */,
 				77AEEAF227859B880016880B /* Info.plist */,
 			);
 			path = "NadoSunbae-Practice-iOS";
+			sourceTree = "<group>";
+		};
+		77AEEAFC2786BB130016880B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				77AEEAE827859B860016880B /* ViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		77AEEAFD2786BB2D0016880B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		77AEEAFE2786BB3E0016880B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		77AEEAFF2786BB5A0016880B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				77AEEAF82785AEF90016880B /* ClassName+UIViewController.swift */,
+				77AEEAFA2785AF470016880B /* UIViewController+.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		77AEEB002786BB7A0016880B /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+				77AEEAE427859B860016880B /* AppDelegate.swift */,
+				77AEEAE627859B860016880B /* SceneDelegate.swift */,
+			);
+			path = Supports;
+			sourceTree = "<group>";
+		};
+		77AEEB012786BB880016880B /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				77AEEAEA27859B860016880B /* Main.storyboard */,
+				77AEEAEF27859B880016880B /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
