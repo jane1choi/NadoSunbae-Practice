@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		77AEEAE527859B860016880B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AEEAE427859B860016880B /* AppDelegate.swift */; };
 		77AEEAE727859B860016880B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AEEAE627859B860016880B /* SceneDelegate.swift */; };
-		77AEEAE927859B860016880B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AEEAE827859B860016880B /* ViewController.swift */; };
 		77AEEAEC27859B860016880B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77AEEAEA27859B860016880B /* Main.storyboard */; };
 		77AEEAEE27859B880016880B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77AEEAED27859B880016880B /* Assets.xcassets */; };
 		77AEEAF127859B880016880B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77AEEAEF27859B880016880B /* LaunchScreen.storyboard */; };
+		77AEEAF92785AEF90016880B /* ClassName+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AEEAF82785AEF90016880B /* ClassName+UIViewController.swift */; };
+		77AEEAFB2785AF470016880B /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AEEAFA2785AF470016880B /* UIViewController+.swift */; };
+		77AEEB032786C5C80016880B /* MajorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AEEB022786C5C80016880B /* MajorModel.swift */; };
+		77AEEB0F2786D9D90016880B /* OverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77AEEB0E2786D9D90016880B /* OverlayView.xib */; };
+		77AEEB112786DA620016880B /* OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AEEB102786DA620016880B /* OverlayView.swift */; };
+		77AEEB132786DE900016880B /* PresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AEEB122786DE900016880B /* PresentationController.swift */; };
+		77AEEB152786DFA10016880B /* ReviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AEEB142786DFA10016880B /* ReviewVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		77AEEAE127859B860016880B /* NadoSunbae-Practice-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NadoSunbae-Practice-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		77AEEAE427859B860016880B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		77AEEAE627859B860016880B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		77AEEAE827859B860016880B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		77AEEAEB27859B860016880B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		77AEEAED27859B880016880B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77AEEAF027859B880016880B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77AEEAF227859B880016880B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77AEEAF82785AEF90016880B /* ClassName+UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ClassName+UIViewController.swift"; sourceTree = "<group>"; };
+		77AEEAFA2785AF470016880B /* UIViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+.swift"; sourceTree = "<group>"; };
+		77AEEB022786C5C80016880B /* MajorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajorModel.swift; sourceTree = "<group>"; };
+		77AEEB0E2786D9D90016880B /* OverlayView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OverlayView.xib; sourceTree = "<group>"; };
+		77AEEB102786DA620016880B /* OverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayView.swift; sourceTree = "<group>"; };
+		77AEEB122786DE900016880B /* PresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationController.swift; sourceTree = "<group>"; };
+		77AEEB142786DFA10016880B /* ReviewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +68,69 @@
 		77AEEAE327859B860016880B /* NadoSunbae-Practice-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				77AEEAE427859B860016880B /* AppDelegate.swift */,
-				77AEEAE627859B860016880B /* SceneDelegate.swift */,
-				77AEEAE827859B860016880B /* ViewController.swift */,
-				77AEEAEA27859B860016880B /* Main.storyboard */,
+				77AEEB012786BB880016880B /* Storyboards */,
+				77AEEB002786BB7A0016880B /* Supports */,
+				77AEEAFF2786BB5A0016880B /* Extensions */,
+				77AEEAFE2786BB3E0016880B /* Models */,
+				77AEEAFD2786BB2D0016880B /* ViewModels */,
+				77AEEAFC2786BB130016880B /* Views */,
 				77AEEAED27859B880016880B /* Assets.xcassets */,
-				77AEEAEF27859B880016880B /* LaunchScreen.storyboard */,
 				77AEEAF227859B880016880B /* Info.plist */,
 			);
 			path = "NadoSunbae-Practice-iOS";
+			sourceTree = "<group>";
+		};
+		77AEEAFC2786BB130016880B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				77AEEB0E2786D9D90016880B /* OverlayView.xib */,
+				77AEEB122786DE900016880B /* PresentationController.swift */,
+				77AEEB142786DFA10016880B /* ReviewVC.swift */,
+				77AEEB102786DA620016880B /* OverlayView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		77AEEAFD2786BB2D0016880B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		77AEEAFE2786BB3E0016880B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				77AEEB022786C5C80016880B /* MajorModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		77AEEAFF2786BB5A0016880B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				77AEEAF82785AEF90016880B /* ClassName+UIViewController.swift */,
+				77AEEAFA2785AF470016880B /* UIViewController+.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		77AEEB002786BB7A0016880B /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+				77AEEAE427859B860016880B /* AppDelegate.swift */,
+				77AEEAE627859B860016880B /* SceneDelegate.swift */,
+			);
+			path = Supports;
+			sourceTree = "<group>";
+		};
+		77AEEB012786BB880016880B /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				77AEEAEA27859B860016880B /* Main.storyboard */,
+				77AEEAEF27859B880016880B /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				77AEEAF127859B880016880B /* LaunchScreen.storyboard in Resources */,
+				77AEEB0F2786D9D90016880B /* OverlayView.xib in Resources */,
 				77AEEAEE27859B880016880B /* Assets.xcassets in Resources */,
 				77AEEAEC27859B860016880B /* Main.storyboard in Resources */,
 			);
@@ -138,7 +205,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77AEEAE927859B860016880B /* ViewController.swift in Sources */,
+				77AEEAF92785AEF90016880B /* ClassName+UIViewController.swift in Sources */,
+				77AEEB112786DA620016880B /* OverlayView.swift in Sources */,
+				77AEEB132786DE900016880B /* PresentationController.swift in Sources */,
+				77AEEAFB2785AF470016880B /* UIViewController+.swift in Sources */,
+				77AEEB152786DFA10016880B /* ReviewVC.swift in Sources */,
+				77AEEB032786C5C80016880B /* MajorModel.swift in Sources */,
 				77AEEAE527859B860016880B /* AppDelegate.swift in Sources */,
 				77AEEAE727859B860016880B /* SceneDelegate.swift in Sources */,
 			);
